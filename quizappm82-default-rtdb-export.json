@@ -1,0 +1,38 @@
+{
+  "questions": {
+    "count": 4,
+    "question1": {
+      "answer": 1,
+      "option1": "Russie",
+      "option2": "Canada",
+      "option3": "Chine",
+      "option4": "États-Unis",
+      "question": "Quel est le plus grand pays du monde?"
+    },
+    "question2": {
+      "answer": 1,
+      "option1": "George Orwell",
+      "option2": "Aldous Huxley",
+      "option3": "Ray Bradbury",
+      "option4": "J.K. Rowling",
+      "question": "Qui a écrit le roman '1984'?"
+    },
+    "question3": {
+      "answer": 2,
+      "option1": "Barcelone",
+      "option2": "Madrid",
+      "option3": "Séville",
+      "option4": "Valence",
+      "question": "Quelle est la capitale de l'Espagne?"
+    },
+    "question4": {
+      "answer": 1,
+      "option1": "Swift",
+      "option2": "Java",
+      "option3": "Php",
+      "option4": "React Native",
+      "question": "Quel est le langage de programmation des applications natives sous ios"
+    }
+
+  }
+}

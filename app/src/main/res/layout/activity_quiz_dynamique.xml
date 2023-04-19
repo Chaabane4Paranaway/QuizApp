@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/question_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/option_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/option1_radiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option 1" />
+
+        <RadioButton
+            android:id="@+id/option2_radiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option 2" />
+
+        <RadioButton
+            android:id="@+id/option3_radiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option 3" />
+
+        <RadioButton
+            android:id="@+id/option4_radiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option 4" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+
+</LinearLayout>
